@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+.vite/
+
+# Large ML model files (exceed GitHub's 100MB limit)
+*.pth
+*.pt
+*.h5
+*.pkl
+*.bin
+*.onnx
+backend-quickstart/ai-service/models/
+
